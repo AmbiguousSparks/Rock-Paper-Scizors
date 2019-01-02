@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Rock Paper and Scizors Game</title>
+<link href="style.css" rel="stylesheet">
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body>
+	<header>
+		<h1>Rock Paper Scizors</h1>
+	</header>
+	
+	<div class="score-board">
+		<div class="badge" id="user-label">User</div>
+		<div class="badge" id="computer-label">Comp</div>
+		<span id="user-score">0</span>:<span id="computer-score">0</span>
+	</div>
+	
+	<div class="result">
+		<p>Paper covers rock. You win!</p>
+	</div>
+	
+	<div class="choices">
+		<div id="r" class="choice">
+			<img src="imgs/rock.png" alt="">			
+		</div>
+		<div id="p" class="choice">
+			<img src="imgs/paper.png" alt="">			
+		</div>
+		<div id="s" class="choice">
+			<img src="imgs/scizors.png" alt="">			
+		</div>
+	</div>
+	
+	<p id="action-message">Make your move</p>
+	
+	<script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
